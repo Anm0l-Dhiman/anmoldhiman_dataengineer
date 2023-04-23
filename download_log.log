@@ -1,0 +1,292 @@
+2023-04-23 22:38:09,209:DEBUG:Starting new HTTPS connection (1): registers.esma.europa.eu:443
+2023-04-23 22:38:11,130:DEBUG:https://registers.esma.europa.eu:443 "GET /solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100 HTTP/1.1" 200 None
+2023-04-23 22:38:11,138:INFO:XML file downloaded successfully.
+2023-04-23 22:38:11,143:INFO:Download link found successfully.
+2023-04-23 22:38:11,148:DEBUG:Starting new HTTP connection (1): firds.esma.europa.eu:80
+2023-04-23 22:38:12,227:DEBUG:http://firds.esma.europa.eu:80 "GET /firds/DLTINS_20210117_01of01.zip HTTP/1.1" 200 4434514
+2023-04-23 22:45:24,882:DEBUG:Starting new HTTPS connection (1): registers.esma.europa.eu:443
+2023-04-23 22:45:26,451:DEBUG:https://registers.esma.europa.eu:443 "GET /solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100 HTTP/1.1" 200 None
+2023-04-23 22:45:26,451:INFO:XML file downloaded successfully.
+2023-04-23 22:45:26,451:INFO:Download link found successfully.
+2023-04-23 22:45:26,451:DEBUG:Starting new HTTP connection (1): firds.esma.europa.eu:80
+2023-04-23 22:45:26,680:DEBUG:http://firds.esma.europa.eu:80 "GET /firds/DLTINS_20210117_01of01.zip HTTP/1.1" 200 4434514
+2023-04-23 22:45:43,096:INFO:Download and extraction successful.
+2023-04-23 22:46:08,625:INFO:Data extraction successful.
+2023-04-23 22:46:08,625:INFO:Starting the code to write data to output.csv file
+2023-04-23 22:46:09,670:INFO:Data written to output.csv file successfully
+2023-04-23 22:46:09,670:INFO:Starting the code to upload output.csv file to S3 bucket
+2023-04-23 22:46:09,671:DEBUG:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2023-04-23 22:46:09,675:DEBUG:Changing event name from before-call.apigateway to before-call.api-gateway
+2023-04-23 22:46:09,677:DEBUG:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2023-04-23 22:46:09,680:DEBUG:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2023-04-23 22:46:09,680:DEBUG:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2023-04-23 22:46:09,682:DEBUG:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2023-04-23 22:46:09,683:DEBUG:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2023-04-23 22:46:09,688:DEBUG:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2023-04-23 22:46:09,689:DEBUG:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2023-04-23 22:46:09,689:DEBUG:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2023-04-23 22:46:09,689:DEBUG:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2023-04-23 22:46:09,945:DEBUG:Loading JSON file: C:\Users\DELL\anaconda3\lib\site-packages\boto3\data\s3\2006-03-01\resources-1.json
+2023-04-23 22:46:09,961:DEBUG:Loading JSON file: C:\Users\DELL\anaconda3\lib\site-packages\botocore\data\endpoints.json
+2023-04-23 22:46:10,004:DEBUG:Loading JSON file: C:\Users\DELL\anaconda3\lib\site-packages\botocore\data\sdk-default-configuration.json
+2023-04-23 22:46:10,266:DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000176C4B8AAF0>
+2023-04-23 22:46:10,440:DEBUG:Loading JSON file: C:\Users\DELL\anaconda3\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json
+2023-04-23 22:46:10,685:DEBUG:Loading JSON file: C:\Users\DELL\anaconda3\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2023-04-23 22:46:10,697:DEBUG:Loading JSON file: C:\Users\DELL\anaconda3\lib\site-packages\botocore\data\partitions.json
+2023-04-23 22:46:10,702:DEBUG:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x00000176C419A430>
+2023-04-23 22:46:10,702:DEBUG:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x00000176808B88B0>
+2023-04-23 22:46:10,818:DEBUG:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x00000176C419A1F0>
+2023-04-23 22:46:10,818:DEBUG:Setting s3 timeout as (60, 60)
+2023-04-23 22:46:10,876:DEBUG:Loading JSON file: C:\Users\DELL\anaconda3\lib\site-packages\botocore\data\_retry.json
+2023-04-23 22:46:10,877:DEBUG:Registering retry handlers for service: s3
+2023-04-23 22:46:10,878:DEBUG:Registering S3 region redirector handler
+2023-04-23 22:46:10,879:DEBUG:Loading s3:s3
+2023-04-23 22:46:10,881:DEBUG:Loading s3:Bucket
+2023-04-23 22:46:10,882:DEBUG:Renaming Bucket attribute name
+2023-04-23 22:46:10,884:DEBUG:Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x00000176808B8700>
+2023-04-23 22:46:10,886:DEBUG:Acquiring 0
+2023-04-23 22:46:10,887:DEBUG:UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000017681AE8550>}) about to wait for the following futures []
+2023-04-23 22:46:10,888:DEBUG:UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000017681AE8550>}) done waiting for dependent futures
+2023-04-23 22:46:10,888:DEBUG:Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000017681AE8550>}) with kwargs {'client': <botocore.client.S3 object at 0x0000017681935820>, 'config': <boto3.s3.transfer.TransferConfig object at 0x0000017681AD2C10>, 'osutil': <s3transfer.utils.OSUtils object at 0x0000017681AE4610>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x0000017681AE4850>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000017681AE8550>}
+2023-04-23 22:46:10,889:DEBUG:Submitting task CreateMultipartUploadTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x0000017681AE4850> for transfer request: 0.
+2023-04-23 22:46:10,889:DEBUG:Acquiring 0
+2023-04-23 22:46:10,890:DEBUG:CreateMultipartUploadTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}) about to wait for the following futures []
+2023-04-23 22:46:10,890:DEBUG:Submitting task UploadPartTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 1, 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x0000017681AE4850> for transfer request: 0.
+2023-04-23 22:46:10,890:DEBUG:CreateMultipartUploadTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}) done waiting for dependent futures
+2023-04-23 22:46:10,890:DEBUG:Acquiring 0
+2023-04-23 22:46:10,891:DEBUG:Executing task CreateMultipartUploadTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x0000017681935820>, 'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}
+2023-04-23 22:46:10,892:DEBUG:UploadPartTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 1, 'extra_args': {}}) about to wait for the following futures [<s3transfer.futures.ExecutorFuture object at 0x0000017681AE8EE0>]
+2023-04-23 22:46:10,893:DEBUG:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000176C4BA65E0>
+2023-04-23 22:46:10,893:DEBUG:Submitting task UploadPartTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 2, 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x0000017681AE4850> for transfer request: 0.
+2023-04-23 22:46:10,894:DEBUG:UploadPartTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 1, 'extra_args': {}}) about to wait for <s3transfer.futures.ExecutorFuture object at 0x0000017681AE8EE0>
+2023-04-23 22:46:10,895:DEBUG:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:10,895:DEBUG:Acquiring 0
+2023-04-23 22:46:10,901:DEBUG:Calling endpoint provider with parameters: {'Bucket': 'anmoldhiman12015805', 'Region': 'ap-southeast-2', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2023-04-23 22:46:10,933:DEBUG:UploadPartTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 2, 'extra_args': {}}) about to wait for the following futures [<s3transfer.futures.ExecutorFuture object at 0x0000017681AE8EE0>]
+2023-04-23 22:46:10,950:DEBUG:Submitting task CompleteMultipartUploadTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x0000017681AE4850> for transfer request: 0.
+2023-04-23 22:46:10,950:DEBUG:UploadPartTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 2, 'extra_args': {}}) about to wait for <s3transfer.futures.ExecutorFuture object at 0x0000017681AE8EE0>
+2023-04-23 22:46:10,954:DEBUG:Endpoint provider result: https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com
+2023-04-23 22:46:10,955:DEBUG:Acquiring 0
+2023-04-23 22:46:10,956:DEBUG:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2023-04-23 22:46:10,958:DEBUG:Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-southeast-2', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2023-04-23 22:46:10,958:DEBUG:CompleteMultipartUploadTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}) about to wait for the following futures [<s3transfer.futures.ExecutorFuture object at 0x0000017681AE8EE0>, <s3transfer.futures.ExecutorFuture object at 0x0000017681AF96A0>, <s3transfer.futures.ExecutorFuture object at 0x0000017681B07490>]
+2023-04-23 22:46:10,960:DEBUG:Event before-parameter-build.s3.CreateMultipartUpload: calling handler <function validate_ascii_metadata at 0x00000176C4BA3280>
+2023-04-23 22:46:10,960:DEBUG:Releasing acquire 0/None
+2023-04-23 22:46:10,961:DEBUG:CompleteMultipartUploadTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}) about to wait for <s3transfer.futures.ExecutorFuture object at 0x0000017681AE8EE0>
+2023-04-23 22:46:10,961:DEBUG:Event before-parameter-build.s3.CreateMultipartUpload: calling handler <function sse_md5 at 0x00000176C4BA2670>
+2023-04-23 22:46:10,962:DEBUG:Event before-parameter-build.s3.CreateMultipartUpload: calling handler <function validate_bucket_name at 0x00000176C4BA25E0>
+2023-04-23 22:46:10,963:DEBUG:Event before-parameter-build.s3.CreateMultipartUpload: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000176C4BA6430>
+2023-04-23 22:46:10,963:DEBUG:Event before-parameter-build.s3.CreateMultipartUpload: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:10,963:DEBUG:Event before-parameter-build.s3.CreateMultipartUpload: calling handler <function generate_idempotent_uuid at 0x00000176C4BA2430>
+2023-04-23 22:46:10,966:DEBUG:Event before-call.s3.CreateMultipartUpload: calling handler <function add_expect_header at 0x00000176C4BA2940>
+2023-04-23 22:46:10,966:DEBUG:Event before-call.s3.CreateMultipartUpload: calling handler <function add_recursion_detection_header at 0x00000176C4BA20D0>
+2023-04-23 22:46:10,967:DEBUG:Event before-call.s3.CreateMultipartUpload: calling handler <function inject_api_version_header_if_needed at 0x00000176C4BA3CA0>
+2023-04-23 22:46:10,967:DEBUG:Making request for OperationModel(name=CreateMultipartUpload) with params: {'url_path': '/SteelEye_assignment.csv?uploads', 'query_string': {}, 'method': 'POST', 'headers': {'User-Agent': 'Boto3/1.26.114 Python/3.9.7 Windows/10 Botocore/1.29.114 Resource'}, 'body': b'', 'auth_path': '/anmoldhiman12015805/SteelEye_assignment.csv?uploads', 'url': 'https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com/SteelEye_assignment.csv?uploads', 'context': {'client_region': 'ap-southeast-2', 'client_config': <botocore.config.Config object at 0x00000176819357C0>, 'has_streaming_input': False, 'auth_type': 'v4', 'signing': {'region': 'ap-southeast-2', 'signing_name': 's3', 'disableDoubleEncoding': True}, 's3_redirect': {'redirected': False, 'bucket': 'anmoldhiman12015805', 'params': {'Bucket': 'anmoldhiman12015805', 'Key': 'SteelEye_assignment.csv'}}}}
+2023-04-23 22:46:10,969:DEBUG:Event request-created.s3.CreateMultipartUpload: calling handler <function signal_not_transferring at 0x0000017681A1BAF0>
+2023-04-23 22:46:10,969:DEBUG:Event request-created.s3.CreateMultipartUpload: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000176819357F0>>
+2023-04-23 22:46:10,970:DEBUG:Event choose-signer.s3.CreateMultipartUpload: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000017681057D30>>
+2023-04-23 22:46:10,970:DEBUG:Event choose-signer.s3.CreateMultipartUpload: calling handler <function set_operation_specific_signer at 0x00000176C4BA2310>
+2023-04-23 22:46:10,971:DEBUG:Event before-sign.s3.CreateMultipartUpload: calling handler <function remove_arn_from_signing_path at 0x00000176C4BA6550>
+2023-04-23 22:46:10,973:DEBUG:Calculating signature using v4 auth.
+2023-04-23 22:46:10,973:DEBUG:CanonicalRequest:
+POST
+/SteelEye_assignment.csv
+uploads=
+host:anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20230423T171610Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2023-04-23 22:46:10,991:DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20230423T171610Z
+20230423/ap-southeast-2/s3/aws4_request
+73af0e5114ecb67c50334016e53682b294839c505d6a7a740d6b302e5784e266
+2023-04-23 22:46:10,992:DEBUG:Signature:
+6e76174bc854f5d39916e8ca64d66edbeb7c8735fa4224b7394271304b27ff99
+2023-04-23 22:46:10,993:DEBUG:Event request-created.s3.CreateMultipartUpload: calling handler <function signal_transferring at 0x0000017681A1BB80>
+2023-04-23 22:46:10,994:DEBUG:Event request-created.s3.CreateMultipartUpload: calling handler <function add_retry_headers at 0x00000176C4BA63A0>
+2023-04-23 22:46:10,994:DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com/SteelEye_assignment.csv?uploads, headers={'User-Agent': b'Boto3/1.26.114 Python/3.9.7 Windows/10 Botocore/1.29.114 Resource', 'X-Amz-Date': b'20230423T171610Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAWUWBL4EKFWQTVLF4/20230423/ap-southeast-2/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=6e76174bc854f5d39916e8ca64d66edbeb7c8735fa4224b7394271304b27ff99', 'amz-sdk-invocation-id': b'2ac0bba3-712c-4a56-bb08-5dee18e99fac', 'amz-sdk-request': b'attempt=1', 'Content-Length': '0'}>
+2023-04-23 22:46:10,999:DEBUG:Certificate path: C:\Users\DELL\anaconda3\lib\site-packages\certifi\cacert.pem
+2023-04-23 22:46:11,002:DEBUG:Starting new HTTPS connection (1): anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com:443
+2023-04-23 22:46:13,097:DEBUG:https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com:443 "POST /SteelEye_assignment.csv?uploads HTTP/1.1" 200 None
+2023-04-23 22:46:13,099:DEBUG:Response headers: {'x-amz-id-2': 'qrwCh/XUQ/dh8iBUhTd0wzEee/+d6fkZe9G3B+BTlt/vYIG1ezmLfFVAa2ofNyLnyy4LiX7zQ10=', 'x-amz-request-id': 'KJHW7AA5W7GMBW84', 'Date': 'Sun, 23 Apr 2023 17:16:14 GMT', 'x-amz-server-side-encryption': 'AES256', 'Transfer-Encoding': 'chunked', 'Server': 'AmazonS3'}
+2023-04-23 22:46:13,099:DEBUG:Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>anmoldhiman12015805</Bucket><Key>SteelEye_assignment.csv</Key><UploadId>JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-</UploadId></InitiateMultipartUploadResult>'
+2023-04-23 22:46:13,102:DEBUG:Event needs-retry.s3.CreateMultipartUpload: calling handler <botocore.retryhandler.RetryHandler object at 0x0000017681AC8340>
+2023-04-23 22:46:13,103:DEBUG:No retry needed.
+2023-04-23 22:46:13,103:DEBUG:Event needs-retry.s3.CreateMultipartUpload: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:13,105:DEBUG:Releasing acquire 0/None
+2023-04-23 22:46:13,106:DEBUG:UploadPartTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 1, 'extra_args': {}}) done waiting for dependent futures
+2023-04-23 22:46:13,106:DEBUG:UploadPartTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 2, 'extra_args': {}}) done waiting for dependent futures
+2023-04-23 22:46:13,106:DEBUG:CompleteMultipartUploadTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}) about to wait for <s3transfer.futures.ExecutorFuture object at 0x0000017681AF96A0>
+2023-04-23 22:46:13,107:DEBUG:Executing task UploadPartTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 1, 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x0000017681935820>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x0000017681AF9250>, 'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 1, 'extra_args': {}, 'upload_id': 'JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-'}
+2023-04-23 22:46:13,109:DEBUG:Executing task UploadPartTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 2, 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x0000017681935820>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x0000017681AF9A30>, 'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'part_number': 2, 'extra_args': {}, 'upload_id': 'JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-'}
+2023-04-23 22:46:13,110:DEBUG:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000176C4BA65E0>
+2023-04-23 22:46:13,111:DEBUG:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000176C4BA65E0>
+2023-04-23 22:46:13,112:DEBUG:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:13,113:DEBUG:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:13,114:DEBUG:Calling endpoint provider with parameters: {'Bucket': 'anmoldhiman12015805', 'Region': 'ap-southeast-2', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2023-04-23 22:46:13,116:DEBUG:Calling endpoint provider with parameters: {'Bucket': 'anmoldhiman12015805', 'Region': 'ap-southeast-2', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2023-04-23 22:46:13,116:DEBUG:Endpoint provider result: https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com
+2023-04-23 22:46:13,117:DEBUG:Endpoint provider result: https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com
+2023-04-23 22:46:13,118:DEBUG:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2023-04-23 22:46:13,119:DEBUG:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2023-04-23 22:46:13,120:DEBUG:Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-southeast-2', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2023-04-23 22:46:13,121:DEBUG:Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-southeast-2', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2023-04-23 22:46:13,125:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <function sse_md5 at 0x00000176C4BA2670>
+2023-04-23 22:46:13,126:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <function sse_md5 at 0x00000176C4BA2670>
+2023-04-23 22:46:13,127:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <function convert_body_to_file_like_object at 0x00000176C4BA3B80>
+2023-04-23 22:46:13,127:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <function convert_body_to_file_like_object at 0x00000176C4BA3B80>
+2023-04-23 22:46:13,128:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <function validate_bucket_name at 0x00000176C4BA25E0>
+2023-04-23 22:46:13,128:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <function validate_bucket_name at 0x00000176C4BA25E0>
+2023-04-23 22:46:13,129:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000176C4BA6430>
+2023-04-23 22:46:13,130:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000176C4BA6430>
+2023-04-23 22:46:13,130:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:13,131:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:13,131:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <function generate_idempotent_uuid at 0x00000176C4BA2430>
+2023-04-23 22:46:13,132:DEBUG:Event before-parameter-build.s3.UploadPart: calling handler <function generate_idempotent_uuid at 0x00000176C4BA2430>
+2023-04-23 22:46:13,134:DEBUG:Event before-call.s3.UploadPart: calling handler <function conditionally_calculate_md5 at 0x00000176C40BDAF0>
+2023-04-23 22:46:13,135:DEBUG:Event before-call.s3.UploadPart: calling handler <function conditionally_calculate_md5 at 0x00000176C40BDAF0>
+2023-04-23 22:46:13,223:DEBUG:Event before-call.s3.UploadPart: calling handler <function add_expect_header at 0x00000176C4BA2940>
+2023-04-23 22:46:13,224:DEBUG:Adding expect 100 continue header to request.
+2023-04-23 22:46:13,224:DEBUG:Event before-call.s3.UploadPart: calling handler <function add_recursion_detection_header at 0x00000176C4BA20D0>
+2023-04-23 22:46:13,224:DEBUG:Event before-call.s3.UploadPart: calling handler <function inject_api_version_header_if_needed at 0x00000176C4BA3CA0>
+2023-04-23 22:46:13,225:DEBUG:Making request for OperationModel(name=UploadPart) with params: {'url_path': '/SteelEye_assignment.csv', 'query_string': {'uploadId': 'JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-', 'partNumber': 2}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.26.114 Python/3.9.7 Windows/10 Botocore/1.29.114 Resource', 'Content-MD5': '7NctqdCLHiw/KJRtrfqUng==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x0000017681AF9A30>, 'auth_path': '/anmoldhiman12015805/SteelEye_assignment.csv', 'url': 'https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com/SteelEye_assignment.csv?uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-&partNumber=2', 'context': {'client_region': 'ap-southeast-2', 'client_config': <botocore.config.Config object at 0x00000176819357C0>, 'has_streaming_input': True, 'auth_type': 'v4', 'signing': {'region': 'ap-southeast-2', 'signing_name': 's3', 'disableDoubleEncoding': True}, 's3_redirect': {'redirected': False, 'bucket': 'anmoldhiman12015805', 'params': {'Bucket': 'anmoldhiman12015805', 'Key': 'SteelEye_assignment.csv', 'UploadId': 'JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-', 'PartNumber': 2, 'Body': <s3transfer.utils.ReadFileChunk object at 0x0000017681AF9A30>}}}}
+2023-04-23 22:46:13,227:DEBUG:Event request-created.s3.UploadPart: calling handler <function signal_not_transferring at 0x0000017681A1BAF0>
+2023-04-23 22:46:13,228:DEBUG:Event request-created.s3.UploadPart: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000176819357F0>>
+2023-04-23 22:46:13,229:DEBUG:Event choose-signer.s3.UploadPart: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000017681057D30>>
+2023-04-23 22:46:13,231:DEBUG:Event choose-signer.s3.UploadPart: calling handler <function set_operation_specific_signer at 0x00000176C4BA2310>
+2023-04-23 22:46:13,232:DEBUG:Event before-sign.s3.UploadPart: calling handler <function remove_arn_from_signing_path at 0x00000176C4BA6550>
+2023-04-23 22:46:13,234:DEBUG:Calculating signature using v4 auth.
+2023-04-23 22:46:13,234:DEBUG:CanonicalRequest:
+PUT
+/SteelEye_assignment.csv
+partNumber=2&uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-
+content-md5:7NctqdCLHiw/KJRtrfqUng==
+host:anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20230423T171613Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2023-04-23 22:46:13,235:DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20230423T171613Z
+20230423/ap-southeast-2/s3/aws4_request
+cde47960afb7322ba5704f73d939dd52fdb966656b3d02598b45170f299a781a
+2023-04-23 22:46:13,237:DEBUG:Signature:
+f5dcb3716bfe05e60e66b2b87f16a993fc644b32966cb079717d6886712a07b5
+2023-04-23 22:46:13,238:DEBUG:Event request-created.s3.UploadPart: calling handler <function signal_transferring at 0x0000017681A1BB80>
+2023-04-23 22:46:13,239:DEBUG:Event request-created.s3.UploadPart: calling handler <function add_retry_headers at 0x00000176C4BA63A0>
+2023-04-23 22:46:13,240:DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com/SteelEye_assignment.csv?uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-&partNumber=2, headers={'User-Agent': b'Boto3/1.26.114 Python/3.9.7 Windows/10 Botocore/1.29.114 Resource', 'Content-MD5': b'7NctqdCLHiw/KJRtrfqUng==', 'Expect': b'100-continue', 'X-Amz-Date': b'20230423T171613Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAWUWBL4EKFWQTVLF4/20230423/ap-southeast-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=f5dcb3716bfe05e60e66b2b87f16a993fc644b32966cb079717d6886712a07b5', 'amz-sdk-invocation-id': b'8e159e16-c992-4fb8-9982-53f941516bf8', 'amz-sdk-request': b'attempt=1', 'Content-Length': '553669'}>
+2023-04-23 22:46:13,243:DEBUG:Certificate path: C:\Users\DELL\anaconda3\lib\site-packages\certifi\cacert.pem
+2023-04-23 22:46:13,245:DEBUG:Waiting for 100 Continue response.
+2023-04-23 22:46:13,307:DEBUG:Event before-call.s3.UploadPart: calling handler <function add_expect_header at 0x00000176C4BA2940>
+2023-04-23 22:46:13,307:DEBUG:Adding expect 100 continue header to request.
+2023-04-23 22:46:13,308:DEBUG:Event before-call.s3.UploadPart: calling handler <function add_recursion_detection_header at 0x00000176C4BA20D0>
+2023-04-23 22:46:13,309:DEBUG:Event before-call.s3.UploadPart: calling handler <function inject_api_version_header_if_needed at 0x00000176C4BA3CA0>
+2023-04-23 22:46:13,310:DEBUG:Making request for OperationModel(name=UploadPart) with params: {'url_path': '/SteelEye_assignment.csv', 'query_string': {'uploadId': 'JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-', 'partNumber': 1}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.26.114 Python/3.9.7 Windows/10 Botocore/1.29.114 Resource', 'Content-MD5': 'biIf9hWcmcGloBfrAJIC2w==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x0000017681AF9250>, 'auth_path': '/anmoldhiman12015805/SteelEye_assignment.csv', 'url': 'https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com/SteelEye_assignment.csv?uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-&partNumber=1', 'context': {'client_region': 'ap-southeast-2', 'client_config': <botocore.config.Config object at 0x00000176819357C0>, 'has_streaming_input': True, 'auth_type': 'v4', 'signing': {'region': 'ap-southeast-2', 'signing_name': 's3', 'disableDoubleEncoding': True}, 's3_redirect': {'redirected': False, 'bucket': 'anmoldhiman12015805', 'params': {'Bucket': 'anmoldhiman12015805', 'Key': 'SteelEye_assignment.csv', 'UploadId': 'JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-', 'PartNumber': 1, 'Body': <s3transfer.utils.ReadFileChunk object at 0x0000017681AF9250>}}}}
+2023-04-23 22:46:13,311:DEBUG:Event request-created.s3.UploadPart: calling handler <function signal_not_transferring at 0x0000017681A1BAF0>
+2023-04-23 22:46:13,312:DEBUG:Event request-created.s3.UploadPart: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000176819357F0>>
+2023-04-23 22:46:13,313:DEBUG:Event choose-signer.s3.UploadPart: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000017681057D30>>
+2023-04-23 22:46:13,313:DEBUG:Event choose-signer.s3.UploadPart: calling handler <function set_operation_specific_signer at 0x00000176C4BA2310>
+2023-04-23 22:46:13,314:DEBUG:Event before-sign.s3.UploadPart: calling handler <function remove_arn_from_signing_path at 0x00000176C4BA6550>
+2023-04-23 22:46:13,316:DEBUG:Calculating signature using v4 auth.
+2023-04-23 22:46:13,316:DEBUG:CanonicalRequest:
+PUT
+/SteelEye_assignment.csv
+partNumber=1&uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-
+content-md5:biIf9hWcmcGloBfrAJIC2w==
+host:anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20230423T171613Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2023-04-23 22:46:13,317:DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20230423T171613Z
+20230423/ap-southeast-2/s3/aws4_request
+b1cb78ee3395eeefd5ea08761a4f99b19b7faf878a3e416c2409884cf81246b9
+2023-04-23 22:46:13,318:DEBUG:Signature:
+d23cfe86817a4ac5e8644ef2028f237f793741f14dea8aef7cbb33104ecd03fa
+2023-04-23 22:46:13,319:DEBUG:Event request-created.s3.UploadPart: calling handler <function signal_transferring at 0x0000017681A1BB80>
+2023-04-23 22:46:13,320:DEBUG:Event request-created.s3.UploadPart: calling handler <function add_retry_headers at 0x00000176C4BA63A0>
+2023-04-23 22:46:13,321:DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com/SteelEye_assignment.csv?uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-&partNumber=1, headers={'User-Agent': b'Boto3/1.26.114 Python/3.9.7 Windows/10 Botocore/1.29.114 Resource', 'Content-MD5': b'biIf9hWcmcGloBfrAJIC2w==', 'Expect': b'100-continue', 'X-Amz-Date': b'20230423T171613Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAWUWBL4EKFWQTVLF4/20230423/ap-southeast-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=d23cfe86817a4ac5e8644ef2028f237f793741f14dea8aef7cbb33104ecd03fa', 'amz-sdk-invocation-id': b'399bf62c-d0fd-4c70-83ba-9eae617908d8', 'amz-sdk-request': b'attempt=1', 'Content-Length': '8388608'}>
+2023-04-23 22:46:13,323:DEBUG:Certificate path: C:\Users\DELL\anaconda3\lib\site-packages\certifi\cacert.pem
+2023-04-23 22:46:13,326:DEBUG:Starting new HTTPS connection (2): anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com:443
+2023-04-23 22:46:13,490:DEBUG:100 Continue response seen, now sending request body.
+2023-04-23 22:46:14,079:DEBUG:Waiting for 100 Continue response.
+2023-04-23 22:46:14,317:DEBUG:100 Continue response seen, now sending request body.
+2023-04-23 22:46:15,904:DEBUG:https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com:443 "PUT /SteelEye_assignment.csv?uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-&partNumber=2 HTTP/1.1" 200 0
+2023-04-23 22:46:15,904:DEBUG:Response headers: {'x-amz-id-2': 'rUjH5eK9chrcQNLrGZ7HH7FGusfv/URnu+MvpNEb4HhFY8++DY9eSkVex3lqby4K7wcgS63mDec=', 'x-amz-request-id': 'KJHMDKWKNSNQ3NJ1', 'Date': 'Sun, 23 Apr 2023 17:16:14 GMT', 'ETag': '"ecd72da9d08b1e2c3f28946dadfa949e"', 'x-amz-server-side-encryption': 'AES256', 'Server': 'AmazonS3', 'Content-Length': '0'}
+2023-04-23 22:46:15,905:DEBUG:Response body:
+b''
+2023-04-23 22:46:15,905:DEBUG:Event needs-retry.s3.UploadPart: calling handler <botocore.retryhandler.RetryHandler object at 0x0000017681AC8340>
+2023-04-23 22:46:15,906:DEBUG:No retry needed.
+2023-04-23 22:46:15,906:DEBUG:Event needs-retry.s3.UploadPart: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:15,906:DEBUG:Releasing acquire 0/None
+2023-04-23 22:46:59,529:DEBUG:https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com:443 "PUT /SteelEye_assignment.csv?uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-&partNumber=1 HTTP/1.1" 200 0
+2023-04-23 22:46:59,530:DEBUG:Response headers: {'x-amz-id-2': 'tclf6paPBFPqMoxlTM6GB2+WLM0JVL1YmUTNja/GXj+K/dCOwDVYgmKMefGq7SmkP8Bs8DJE77I=', 'x-amz-request-id': '2H8X92ABJ01PPN9H', 'Date': 'Sun, 23 Apr 2023 17:16:15 GMT', 'ETag': '"6e221ff6159c99c1a5a017eb009202db"', 'x-amz-server-side-encryption': 'AES256', 'Server': 'AmazonS3', 'Content-Length': '0'}
+2023-04-23 22:46:59,530:DEBUG:Response body:
+b''
+2023-04-23 22:46:59,530:DEBUG:Event needs-retry.s3.UploadPart: calling handler <botocore.retryhandler.RetryHandler object at 0x0000017681AC8340>
+2023-04-23 22:46:59,530:DEBUG:No retry needed.
+2023-04-23 22:46:59,531:DEBUG:Event needs-retry.s3.UploadPart: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:59,531:DEBUG:Releasing acquire 0/None
+2023-04-23 22:46:59,531:DEBUG:CompleteMultipartUploadTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}) about to wait for <s3transfer.futures.ExecutorFuture object at 0x0000017681B07490>
+2023-04-23 22:46:59,531:DEBUG:CompleteMultipartUploadTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}) done waiting for dependent futures
+2023-04-23 22:46:59,532:DEBUG:Executing task CompleteMultipartUploadTask(transfer_id=0, {'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x0000017681935820>, 'bucket': 'anmoldhiman12015805', 'key': 'SteelEye_assignment.csv', 'extra_args': {}, 'upload_id': 'JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-', 'parts': [{'ETag': '"6e221ff6159c99c1a5a017eb009202db"', 'PartNumber': 1}, {'ETag': '"ecd72da9d08b1e2c3f28946dadfa949e"', 'PartNumber': 2}]}
+2023-04-23 22:46:59,532:DEBUG:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000176C4BA65E0>
+2023-04-23 22:46:59,533:DEBUG:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:59,533:DEBUG:Calling endpoint provider with parameters: {'Bucket': 'anmoldhiman12015805', 'Region': 'ap-southeast-2', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2023-04-23 22:46:59,533:DEBUG:Endpoint provider result: https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com
+2023-04-23 22:46:59,533:DEBUG:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2023-04-23 22:46:59,533:DEBUG:Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-southeast-2', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2023-04-23 22:46:59,534:DEBUG:Event before-parameter-build.s3.CompleteMultipartUpload: calling handler <function validate_bucket_name at 0x00000176C4BA25E0>
+2023-04-23 22:46:59,534:DEBUG:Event before-parameter-build.s3.CompleteMultipartUpload: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000176C4BA6430>
+2023-04-23 22:46:59,534:DEBUG:Event before-parameter-build.s3.CompleteMultipartUpload: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:59,534:DEBUG:Event before-parameter-build.s3.CompleteMultipartUpload: calling handler <function generate_idempotent_uuid at 0x00000176C4BA2430>
+2023-04-23 22:46:59,535:DEBUG:Event before-call.s3.CompleteMultipartUpload: calling handler <function add_expect_header at 0x00000176C4BA2940>
+2023-04-23 22:46:59,536:DEBUG:Event before-call.s3.CompleteMultipartUpload: calling handler <function add_recursion_detection_header at 0x00000176C4BA20D0>
+2023-04-23 22:46:59,536:DEBUG:Event before-call.s3.CompleteMultipartUpload: calling handler <function inject_api_version_header_if_needed at 0x00000176C4BA3CA0>
+2023-04-23 22:46:59,536:DEBUG:Making request for OperationModel(name=CompleteMultipartUpload) with params: {'url_path': '/SteelEye_assignment.csv', 'query_string': {'uploadId': 'JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-'}, 'method': 'POST', 'headers': {'User-Agent': 'Boto3/1.26.114 Python/3.9.7 Windows/10 Botocore/1.29.114 Resource'}, 'body': b'<CompleteMultipartUpload xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Part><ETag>"6e221ff6159c99c1a5a017eb009202db"</ETag><PartNumber>1</PartNumber></Part><Part><ETag>"ecd72da9d08b1e2c3f28946dadfa949e"</ETag><PartNumber>2</PartNumber></Part></CompleteMultipartUpload>', 'auth_path': '/anmoldhiman12015805/SteelEye_assignment.csv', 'url': 'https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com/SteelEye_assignment.csv?uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-', 'context': {'client_region': 'ap-southeast-2', 'client_config': <botocore.config.Config object at 0x00000176819357C0>, 'has_streaming_input': False, 'auth_type': 'v4', 'signing': {'region': 'ap-southeast-2', 'signing_name': 's3', 'disableDoubleEncoding': True}, 's3_redirect': {'redirected': False, 'bucket': 'anmoldhiman12015805', 'params': {'Bucket': 'anmoldhiman12015805', 'Key': 'SteelEye_assignment.csv', 'UploadId': 'JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-', 'MultipartUpload': {'Parts': [{'ETag': '"6e221ff6159c99c1a5a017eb009202db"', 'PartNumber': 1}, {'ETag': '"ecd72da9d08b1e2c3f28946dadfa949e"', 'PartNumber': 2}]}}}}}
+2023-04-23 22:46:59,537:DEBUG:Event request-created.s3.CompleteMultipartUpload: calling handler <function signal_not_transferring at 0x0000017681A1BAF0>
+2023-04-23 22:46:59,537:DEBUG:Event request-created.s3.CompleteMultipartUpload: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000176819357F0>>
+2023-04-23 22:46:59,537:DEBUG:Event choose-signer.s3.CompleteMultipartUpload: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000017681057D30>>
+2023-04-23 22:46:59,537:DEBUG:Event choose-signer.s3.CompleteMultipartUpload: calling handler <function set_operation_specific_signer at 0x00000176C4BA2310>
+2023-04-23 22:46:59,538:DEBUG:Event before-sign.s3.CompleteMultipartUpload: calling handler <function remove_arn_from_signing_path at 0x00000176C4BA6550>
+2023-04-23 22:46:59,538:DEBUG:Calculating signature using v4 auth.
+2023-04-23 22:46:59,538:DEBUG:CanonicalRequest:
+POST
+/SteelEye_assignment.csv
+uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-
+host:anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com
+x-amz-content-sha256:fd72da933920828b7d6f03840e2c612fd46e20a39039fa97ea8cfd54545a3987
+x-amz-date:20230423T171659Z
+
+host;x-amz-content-sha256;x-amz-date
+fd72da933920828b7d6f03840e2c612fd46e20a39039fa97ea8cfd54545a3987
+2023-04-23 22:46:59,538:DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20230423T171659Z
+20230423/ap-southeast-2/s3/aws4_request
+37d5d070b9e0873f02a876ab89722616587cc75045c9233e8af74d3fad501417
+2023-04-23 22:46:59,539:DEBUG:Signature:
+6e1753d27e8ead9714da7942a51182378c437b5383e177953c76a3bc495049cc
+2023-04-23 22:46:59,539:DEBUG:Event request-created.s3.CompleteMultipartUpload: calling handler <function signal_transferring at 0x0000017681A1BB80>
+2023-04-23 22:46:59,539:DEBUG:Event request-created.s3.CompleteMultipartUpload: calling handler <function add_retry_headers at 0x00000176C4BA63A0>
+2023-04-23 22:46:59,539:DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com/SteelEye_assignment.csv?uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw-, headers={'User-Agent': b'Boto3/1.26.114 Python/3.9.7 Windows/10 Botocore/1.29.114 Resource', 'X-Amz-Date': b'20230423T171659Z', 'X-Amz-Content-SHA256': b'fd72da933920828b7d6f03840e2c612fd46e20a39039fa97ea8cfd54545a3987', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAWUWBL4EKFWQTVLF4/20230423/ap-southeast-2/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=6e1753d27e8ead9714da7942a51182378c437b5383e177953c76a3bc495049cc', 'amz-sdk-invocation-id': b'ef73ff22-5508-4395-b5e7-f53ebe53de9c', 'amz-sdk-request': b'attempt=1', 'Content-Length': '271'}>
+2023-04-23 22:46:59,540:DEBUG:Certificate path: C:\Users\DELL\anaconda3\lib\site-packages\certifi\cacert.pem
+2023-04-23 22:46:59,791:DEBUG:https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com:443 "POST /SteelEye_assignment.csv?uploadId=JJTs5OxVmEUtI0jZhisRpk7WS84czfvr94c27Tc9h1MJckutnjjA6jfiWaxTanV1QagsBkcLzdswzh16HwHRqUtUdKpER2235qCn3ji7IFw- HTTP/1.1" 200 None
+2023-04-23 22:46:59,843:DEBUG:Response headers: {'x-amz-id-2': 'dgnxbqa4yie7SKRAwiAJoy1YJ6tdqFqwqbqEVYg6o+yJ58+MZ2odNihK1k6LAibWSD6rQ2cCShk=', 'x-amz-request-id': 'V6898FFQ366FN8ST', 'Date': 'Sun, 23 Apr 2023 17:17:00 GMT', 'x-amz-server-side-encryption': 'AES256', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Server': 'AmazonS3'}
+2023-04-23 22:46:59,844:DEBUG:Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n\n<CompleteMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Location>https://anmoldhiman12015805.s3.ap-southeast-2.amazonaws.com/SteelEye_assignment.csv</Location><Bucket>anmoldhiman12015805</Bucket><Key>SteelEye_assignment.csv</Key><ETag>"5a724725b4abe5899f3ec4991557355f-2"</ETag></CompleteMultipartUploadResult>'
+2023-04-23 22:46:59,846:DEBUG:Event needs-retry.s3.CompleteMultipartUpload: calling handler <function check_for_200_error at 0x00000176C4BA21F0>
+2023-04-23 22:46:59,847:DEBUG:Event needs-retry.s3.CompleteMultipartUpload: calling handler <botocore.retryhandler.RetryHandler object at 0x0000017681AC8340>
+2023-04-23 22:46:59,847:DEBUG:No retry needed.
+2023-04-23 22:46:59,848:DEBUG:Event needs-retry.s3.CompleteMultipartUpload: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000017681AC8400>>
+2023-04-23 22:46:59,849:DEBUG:Releasing acquire 0/None
+2023-04-23 22:46:59,851:INFO:output.csv file uploaded to S3 bucket successfully
